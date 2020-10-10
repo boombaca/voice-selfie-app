@@ -16,7 +16,7 @@ var Content = event.results[0][0].transcript;
 
     document.getElementById("textbox").innerHTML = Content;
     console.log(Content);
-      if(Content =="Mera selfie lo")
+      if(Content =="Meri selfie lo")
       {
         console.log("ले रहे है सेल्फी ");
         speak();
