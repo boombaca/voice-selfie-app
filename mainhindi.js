@@ -18,7 +18,7 @@ var Content = event.results[0][0].transcript;
     console.log(Content);
       if(Content =="Meri selfie lo")
       {
-        console.log("ले रहे है सेल्फी ");
+        console.log("le rahe he selfie in ");
         speak();
       }
 }
