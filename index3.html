@@ -1,0 +1,47 @@
+<html>
+    <head>
+       <title>मेरी आवाज सेल्फी ऐप </title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <section>
+        <a href="" id="link" download="myselfie.png"></a>
+        <h1>
+            वॉयस सेल्फी ऐप
+        </h1>
+        <hr>
+        
+        <h3 style="color:red;">पॉपअप आते ही कृपया अनुमति दें दबाएं। के बाद आप एक आवाज आदेश दे मेरी सेल्फी लो</h3>     
+        
+        <div class="form-group">
+        <marquee><h3>बोलो"मेरी सेल्फी लो"</h3></marquee>
+        <label>आपकी आवाज़ आउटपुट:</label>
+        <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <div> <p> प्रारंभ बटन दबाएँ</p> <button class="btn btn-primary" onclick="start()">शुरू</button><div>
+          
+        <hr>
+    
+       <span><label>आपका वेबकैम: </label> <div id="camera"></div> <br> <label>आपकी सेल्फी यहां प्रदर्शित होगी: </label> <div id="result" ></div></span> 
+       <button class="btn btn-primary" onclick="save()">
+        डाउनलोड</button> 
+       <button class="btn btn-primary" onclick="off()">हटाना</button> 
+    </center>
+    </div>
+
+    <script src="mainhindi.js"></script>
+</section>
+</body>
+</html>
